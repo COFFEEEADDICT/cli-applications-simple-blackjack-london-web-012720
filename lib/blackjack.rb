@@ -54,17 +54,10 @@ end
 #####################################################
 
 def runner
-  welcome
+welcome
 initial_round
 hit?(card_tot)
   display_card_total(card_total)
 if card_total > 21
   return end_game
-else
-  welcome
-initial_round
-hit?(card_tot)
-  display_card_total(card_total)
-end
-
 end
