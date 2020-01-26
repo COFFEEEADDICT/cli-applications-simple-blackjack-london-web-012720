@@ -39,7 +39,7 @@ prompt_user
       card_tot
     else
       invalid_command
-
+      prompt_user
     end
 card_tot
 end
