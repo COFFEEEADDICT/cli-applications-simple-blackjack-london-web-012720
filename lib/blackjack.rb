@@ -61,4 +61,5 @@ hit?(card_tot)
 if card_total > 21
   return end_game
 end
+  return end_game
 end
