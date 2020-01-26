@@ -41,7 +41,6 @@ prompt_user
       invalid_command
       prompt_user
       user_in = get_user_input
-
     end
 card_tot
 end
