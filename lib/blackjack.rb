@@ -57,4 +57,6 @@ def runner
   welcome
 initial_round
 hit?(card_tot)
+display_card_total
+
 end
