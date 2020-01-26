@@ -56,8 +56,4 @@ end
 def runner
 welcome
 
-until card_total > 21
-   end_game(card_tot)
-end
-   end_game(card_tot)
 end
