@@ -61,4 +61,9 @@ hit?(card_tot)
 if card_total > 21
   return end_game
 else
+  welcome
+initial_round
+hit?(card_tot)
+  display_card_total(card_total)
+
 end
