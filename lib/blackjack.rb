@@ -66,4 +66,5 @@ initial_round
 hit?(card_tot)
   display_card_total(card_total)
 end
+
 end
