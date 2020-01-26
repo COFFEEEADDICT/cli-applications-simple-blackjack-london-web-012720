@@ -58,7 +58,7 @@ welcome
 card_tot = initial_round
 until card_tot > 21
 card_tot = hit?(card_tot)
-display_card_total
+display_card_total(card_tot)
 end
    end_game(card_tot)
 
